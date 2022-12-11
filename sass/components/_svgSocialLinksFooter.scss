@@ -1,0 +1,61 @@
+/* Соц.мережі футер */
+
+.social-links-box-footer{
+  width: 206px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.titles-in-footer{
+display: inline-block;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: $primary-white-color;
+margin-bottom: 20px;
+}
+
+.social-links-box__link--color{
+ color: $primary-white-color;
+background-color: rgba(255, 255, 255, 0.1); 
+}
+
+.social-icon-box-footer{
+text-align: center;
+ margin-top: 60px;
+
+@media screen and (min-width: 768px){
+margin-top: 0;
+margin-left: auto;
+  }
+
+@media screen and (min-width: 1200px){
+padding-top: 12px;
+margin-left: 70px;
+text-align: left;
+  }
+ 
+}
+
+.social-icon-box-footer--padding{
+  @media screen and (min-width:768px) and (max-width: 1199px) {
+      padding-right: 89px;
+  }
+
+}
+
+.container-footer{
+
+
+  @media screen and (min-width: 768px) and (max-width:1199px) {
+  display: flex;
+  flex-wrap: wrap; 
+  }
+@media screen and (min-width: 1200px) {
+  display: flex;
+  }
+
+}
