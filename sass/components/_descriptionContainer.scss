@@ -1,0 +1,40 @@
+/* Опис картинки у розділі "Чим ми займаємося" */
+
+.description{
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #EEEEEE;
+  border-left: 1px solid #EEEEEE;
+  padding: 20px 24px;
+}
+
+.some-photo-list__item{
+  position: relative;
+}
+
+.some-photo-list__description-container{
+position: absolute;
+width: 100%;
+height: 70px;
+bottom: 0;
+background-color: rgba(47, 48, 58, 0.8);
+}
+
+.some-photo-list__description{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100%;
+font-size: 14px;
+line-height: 1.14;
+text-align: center;
+text-transform: uppercase;
+color: $primary-white-color;
+}
+
+
+.section--display-none{
+
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
+}
