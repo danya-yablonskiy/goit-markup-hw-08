@@ -1,0 +1,20 @@
+/* Нижня риска в хедері */
+
+.site-nav__item{
+  position: relative;
+}
+
+.site-nav__link--underscore::after{
+content: " ";
+position: absolute;
+width: 100%;
+height: 4px;
+border-radius: 2px;
+background-color: $color-hover-logo-button;
+bottom: -11px;
+left: 0;
+
+@media screen and (min-width: 768px) and (max-width:1199px) {
+  bottom: -2px;
+}
+}
