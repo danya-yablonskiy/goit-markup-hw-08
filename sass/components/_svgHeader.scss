@@ -1,0 +1,19 @@
+/* Конверт і телефон в хедері */
+
+.email-header__svg{
+  margin-right: 10px;
+  fill: currentColor;
+  align-items: center;
+  &:hover{
+ color: $color-hover-logo-button;
+  }
+}
+
+.tel-header__svg{
+  align-items: center;
+  margin-right: 10px;
+  fill: currentColor;
+  &:hover{
+    color: $color-hover-logo-button;
+  }
+}
