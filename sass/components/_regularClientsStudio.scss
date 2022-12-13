@@ -1,12 +1,10 @@
 /* Постійні клієнти */
 
 .regular-customers-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  @media screen and (min-width: 768px) {
+  @media screen and (max-width: 1199px) {
     display: flex;
     flex-wrap: wrap;
+    gap: 30px;
   }
 
   @media screen and (min-width: 1200px) {
