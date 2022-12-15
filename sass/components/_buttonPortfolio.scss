@@ -25,10 +25,27 @@
   margin-left: 8px;
 }
 
+@media screen and (max-width: 767px){
+.button-box__item:not(:last-child){
+  margin-bottom: 15px;
+}
+}
+
+
+
+
 .button-box {
   display: flex;
   margin-bottom: 50px;
-  justify-content: center;
+
+  @media screen and (max-width: 767px){
+width: 320px;
+  flex-wrap: wrap;
+  }
+
+  @media screen and (min-width:768px){
+   justify-content: center;
+  }
 }
 
 .imgs-portfolio{
